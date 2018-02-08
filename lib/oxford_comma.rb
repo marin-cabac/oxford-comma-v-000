@@ -4,7 +4,7 @@ sz=array.size
 z = sz-1
 
 
- case  
+ case
 when array.size == 2
   array.join(" and ")
 when array.size == 3
