@@ -1,6 +1,8 @@
 
 def oxford_comma(array)
-z = array.size-1
+sz=array.size
+z = sz-1
+
 
  case  
 when array.size == 2
