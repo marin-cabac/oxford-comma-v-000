@@ -4,6 +4,8 @@ if array.size == 2
 elsif array.size == 3
   array[2]='and '+ array[2]
   array.join(", ")
+elsif array.size>3
+  array.join(",")
 else
   array.join("")
 
